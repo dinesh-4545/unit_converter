@@ -26,7 +26,7 @@ if choice == "1":
         try:
             celsius = float(user_celsius)
         except ValueError:
-            print(f"Invalid number: '{user_celsius}'. Enter a valid number.")
+            print(f"Invalid number: '{user_celsius}'. Example: 12 or -3.5.")
 
         if celsius is None:
             print("No conversion done.")
@@ -47,7 +47,7 @@ if choice == "1":
         try:
             fahrenheit = float(user_fahrenheit)
         except ValueError:
-            print(f"Invalid number: '{user_fahrenheit}'. Enter a valid number.")
+            print(f"Invalid number: '{user_fahrenheit}'. Example: 12 or -3.5.")
 
         if fahrenheit is None:
             print("No conversion done.")
@@ -78,7 +78,7 @@ elif choice == "2":
         try:
             meter = float(user_meter)
         except ValueError:
-            print(f"Invalid number: '{user_meter}'. Enter a valid number.")
+            print(f"Invalid number: '{user_meter}'. Example: 12 or 3.5.")
 
         if meter is None:
             print("No conversion done.")
@@ -99,7 +99,7 @@ elif choice == "2":
         try:
             kilo_meter = float(user_kilo_meter)
         except ValueError:
-            print(f"Invalid number: '{user_kilo_meter}'. Enter a valid number.")
+            print(f"Invalid number: '{user_kilo_meter}'. Example: 12 or 3.5.")
 
         if kilo_meter is None:
             print("No conversion done.")
@@ -130,7 +130,7 @@ elif choice == "3":
         try:
             gram = float(user_gram)
         except ValueError:
-            print(f"Invalid number: '{user_gram}'. Enter a valid number.")
+            print(f"Invalid number: '{user_gram}'. Example: 12 or 3.5.")
 
         if gram is None:
             print("No conversion done.")
@@ -151,7 +151,7 @@ elif choice == "3":
         try:
             kilo_gram = float(user_kilogram)
         except ValueError:
-            print(f"Invalid number: '{user_kilogram}'. Enter a valid number.")
+            print(f"Invalid number: '{user_kilogram}'. Example: 12 or 3.5.")
 
         if kilo_gram is None:
             print("No conversion done.")
