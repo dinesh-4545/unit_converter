@@ -62,7 +62,7 @@ if choice == "1":
             print(f"{fahrenheit}°F = {celsius:.2f}°C")
 
     else:
-        print(f"Invalid option: {new_choice}. Choose between 1 and 2.")
+        print(f"Invalid option: {new_choice!r}. Choose 1 or 2.")
 
 elif choice == "2":
     print("Distance Converter")
@@ -114,7 +114,7 @@ elif choice == "2":
             print(f"{kilo_meter}km = {meter:.10g}m")
 
     else:
-        print(f"Invalid option: {new_choice}. Choose between 1 and 2.")
+        print(f"Invalid option: {new_choice!r}. Choose 1 or 2.")
 
 elif choice == "3":
     print("Weight Converter")
@@ -166,7 +166,7 @@ elif choice == "3":
             print(f"{kilo_gram}kg = {gram:.10g}g")
 
     else:
-        print(f"Invalid option: {new_choice}. Choose between 1 and 2.")
+        print(f"Invalid option: {new_choice!r}. Choose 1 or 2.")
 
 else:
-    print(f"Invalid option: {choice}. Choose between 1 and 3.")
+    print(f"Invalid option: {choice!r}. Choose 1, 2, or 3.")
